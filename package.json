@@ -1,0 +1,21 @@
+{
+    "name": "1.0",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+
+    "scripts": {
+        "build:watch": "tsc -w" /*o script vai dizer para ts que toda vez que modificar o doc .ts, deverá gerar o arquivo JS correspondente*/
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Thais de Paula Lopes Leal",
+    "license": "ISC",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.5.0",
+        "@typescript-eslint/parser": "^4.5.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.6",
+        "typescript": "^4.0.3"
+    }
+}

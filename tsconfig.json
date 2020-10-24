@@ -1,0 +1,25 @@
+/*utilizar em tempo de compilação Typescript para JS, compilar tudo o que está na pasta src, vai gerar os docs do tipo ES6*/
+
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"noEmit": false,
+		"noEmitOnError": false,
+		"alwaysStrict": true,
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"target": "ES6",
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"outDir": "./dist",
+		"rootDir": "./src/",
+		"sourceMap": true,
+		"lib": ["es6", "dom", "es2017", "es7"],
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
+	}
+}
